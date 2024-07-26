@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML5/CSS3 TEST SITE</title>
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div id="main">
+      <header>
+        <!-- 머리글 영역 -->
+        <div id="logo">
+          <h1>HTML5/CSS3<a href="index.html">_TEST SITE</a></h1>
+          <h2>HTML5, CSS3를 이용한 웹 개발 테스트 사이트 입니다.</h2>
+        </div>
+
+        <nav>
+          <!-- 주메뉴 -->
+          <ul id="menu">
+            <li><a href="index.html">HOME</a></li>
+            <li class="selected"><a href="menu1.html">메뉴 1</a></li>
+            <li><a href="menu2.html">메뉴 2</a></li>
+            <li><a href="menu3.html">메뉴 3</a></li>
+            <li><a href="menu4.html">메뉴 4</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <div id="site_content">
+        <aside>
+          <!-- 광고, 링크 등 주내용 아닌 부분 -->
+          <h1>최신 뉴스</h1>
+          <h4>HTML5는 어떻게 활용하는 언어인가?</h4>
+          <h5>2024-07-18</h5>
+
+          <p id="p2">
+            HTML5는 HTML의 완전한 5번째 버전으로 월드 와이드 웹 (World Wide
+            Web)의 핵심 마크업 언어이다. 2004년 7월 WHATWG에서 웹 애플리케이션
+            1.0이라는 이름으로 세부 명세 작업을 시작하였다.
+          </p>
+          <p>더 많은 정보는 <a href="#">이곳</a>을 클릭하세요.</p>
+
+          <h1>참조 링크</h1>
+          <ul>
+            <li><a href="#">link 1</a></li>
+            <li><a href="#">link 2</a></li>
+            <li><a href="#">link 3</a></li>
+            <li><a href="#">link 4</a></li>
+          </ul>
+
+          <h1>기타 정보</h1>
+          <p>HTML5 기타 정보입니다.</p>
+          <img src="images/img1.jpg" width="200" />
+        </aside>
+
+        <section>
+          <!-- 기사, 공지사항 등의 영역-->
+          <article>
+            <h2>이미지 태그</h2>
+
+            <figure>
+              <!-- 이미지를 묶어서 관리할 때 사용 -->
+              <figcaption>이미지 모음</figcaption>
+              <!-- 제목 설정 -->
+              <img src="images/img2.jpg" width="300" />
+            </figure>
+
+            <h5>이미지 파일 형식: jpg, png, gif</h5>
+          </article>
+
+          <article>
+            <h2>오디오 태그</h2>
+
+            <audio src="images/aa.mp3" controls></audio>
+            <h5>오디오 파일 형식: mp3, wav, ogg(사파리x)</h5>
+          </article>
+
+          <article>
+            <h2>비디오 태그</h2>
+
+            <video
+              poster="images/poster.jpg"
+              src="images/bb.mp4"
+              width="430"
+              controls
+            ></video>
+            <h5>비디오 파일 형식: mp4, webm, ogg(사파리x)</h5>
+          </article>
+        </section>
+      </div>
+
+      <footer>
+        <!-- 바닥글 영역 -->
+        <p>
+          <a href="index.html">HOME</a> | <a href="menu1.html">메뉴1</a> |
+          <a href="menu2.html">메뉴2</a> | <a href="menu3.html">메뉴3</a> |
+          <a href="menu4.html">메뉴4</a>
+        </p>
+
+        <p>
+          Copyright &copy; YURI |
+          <a href="https://www.w3schools.com" target="_blank">W3Schools</a> |
+          <a href="#">기타 웹표준 사이트</a>
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
